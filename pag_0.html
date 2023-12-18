@@ -22,8 +22,104 @@
 
 
         <h3> DESCARGAR </h3>
-        <p>Descarga en el siguiente <strong>enlace</strong>. <em>Solamente los que busquen un cambio honesto seran recompensados...</em></p>
+        <!--Mediante strong se pueden hacer el texto en negritas, con em se puede aplicar la cursiva al texto, com span se puede añadir una etiqueta de clase y maquetacion a una parte del codigo,
+        con i se puede hacer tabien la letra cursiva...-->
+        <p>Descarga en el siguiente <strong>enlace</strong>. <em>Solamente los que busquen un cambio honesto seran recompensados...</em><span id="juegaya" class="">Juega ya</span></p>
+        <blockquote> Vayamos juntos a reparar la zona centro de nuestro pais.</blockquote> <!--Con el blockcuote se crea una cuatatiion para texto especial-->
+        <p>
 
+            <ol> <!--Con ol se crean listar ordenadas y con li se crean los elementos de las listas, ademas con ul se crean listas desordenadas-->
+
+                <li>Guanajuato
+                    <ul>
+
+                        <li>Enchiladas mineras</li>
+                        <li>Guacamaya</li>
+
+                    </ul>
+                </li>
+                <li>Quetetaro</li>
+                <li>Hidakgo</li>
+                <li>Tlaxcala</li>
+                <li>Puebla</li>
+                <li>Morelos</li>
+                <li>Estado de mexico</li>
+                <li>Ciudad de mexico</li>
+
+            </ol>
+
+            <ul>
+
+                <li>Murcielago</li>
+                <li>Ratas</li>
+                <li>Puercoespin</li>
+                <li>Serpiente</li>
+                <li>Falso escorpion</li>
+                <li>Coyote</li>
+                <li>Cacomixtke</li>
+                <li>Salamandra</li>
+
+            </ul>
+        
+        </p>
+
+        <h2>Conoce a nuestro equipo</h2>
+        <img src="sprites\frames\frames\mau1.png" alt="mau" title="mau" height="100" width="100">
+        <!--La imagen se crea con img, se añade la ruta relativa, se le asigna un valor elternativo por si la imagen no llegase a cargar, ek titulo y el tamaño-->
+
+        <h2>Descarga para otras plataformas</h2>
+        <table border="1"> <!--Se crea la tabla con table y tr para las columnas de la tabla y td para las filas de esta-->
+
+            <tr>
+                <td>Plataforma</td>
+                <td>Descarga</td>
+            </tr>
+            <tr>
+                <td>Windows</td>
+                <td>httpas</td>
+            </tr>
+            <tr>
+                <td>Linux</td>
+                <td>httpas</td>
+            </tr>
+            <tr>
+                <td colspan="2">BUSCAR VERSION</td> <!--Codespan es para dar una sangira-->
+            </tr>
+
+        </table>
+            <h3>Registrate para obtener novedades</h3>
+            <form>
+
+                <p>
+                    <label for="">Correo electronico</label>
+                    <input type="text" placeholder="correo" name="correo"> 
+                </p>
+                <p>
+                    <label for="">Nombre</label>
+                    <input type="text" placeholder="nombre" name="nombre">
+                </p>
+
+                <h4>Deja un comentario</h4>
+
+                <textarea name="opinion" id="" cols="30" rows="10" placeholder="Opcional"></textarea>
+
+                <h4>Como nos conociste</h4>
+
+                <input type="radio" name="obs" id="" value="Internet"><br>
+                <input type="radio" name="obs" id="" value="Publicidad"><br>
+
+                <h3>A quien recomendarias el juego</h3>
+
+                <select name="" id="">
+                    <option value="Amigos">Amigos</option>
+                    <option value="Conocidos">Coniocidos</option>
+                    <option value="Familiares">Familiares</option>
+                </select>
+                <br>
+                <br>
+                <input type="submit" value="Registrarme">
+
+            </form>
     </body>
 
 </html>
